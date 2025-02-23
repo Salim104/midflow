@@ -39,7 +39,7 @@ export const Navbar = () => {
 
             {/* Mobile Menu (Dropdown) */}
             
-                <div className={isOpen ? 'fixed flex flex-col h-full left-0 top-0 z-10 w-[60%] bg-backgroundColor ease-in-out duration-500 md:hidden':'fixed left-[-100%]'}>
+                <div className={isOpen ? 'fixed flex flex-col h-full left-0 top-0 z-40 w-[60%] bg-backgroundColor ease-in-out duration-500 md:hidden':'fixed left-[-100%]'}>
 
                     <div className="h-[50%] flex flex-col justify-evenly items-center  ">
                     <a href="#" className="text-textColor font-semibold text-lg hover:text-heroColor" onClick={() => setIsOpen(false)}>Services</a>
