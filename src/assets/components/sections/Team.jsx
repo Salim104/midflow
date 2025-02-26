@@ -7,8 +7,8 @@ function Team() {
      return (
         <section className="bg-primary text-white py-16 px-6 text-center">
             {/* Section Heading */}
-            <h2 className="text-5xl md:text-6xl font-bold">Team</h2>
-            <p className="text-xl text-secondary mt-2">The Minds Behind Innovation</p>
+            <h2 className="text-4xl md:text-6xl font-bold">Team</h2>
+            <p className="text-2xl md:text-3xl text-heroColor font-semibold mt-2">The Minds Behind Innovation</p>
 
             {/* Team Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 max-w-5xl mx-auto">

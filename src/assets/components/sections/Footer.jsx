@@ -12,7 +12,7 @@ export const Footer = () => {
             </p>
 
             {/* CTA Button */}
-            <button className="mt-6 bg-secondary text-white px-6 py-3 text-lg font-semibold rounded-md hover:bg-opacity-80 transition">
+            <button className="mt-6 bg-heroColor text-white px-6 py-3 text-lg font-semibold rounded-md hover:bg-opacity-80 transition">
                 BOOK YOUR FREE CONSULTATION
             </button>
 
