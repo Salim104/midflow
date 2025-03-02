@@ -1,6 +1,6 @@
 export const Home = () => {
     return (
-        <section className="flex flex-col justify-center h-screen bg-[#080538] text-textColor px-7 md:max-w-[1400px] md:mx-auto">
+        <section  className="flex flex-col justify-center h-screen bg-[#080538] text-textColor px-7 md:max-w-[1400px] md:mx-auto">
             {/* Blurred Circle Effect */}
             <div className="absolute top-20 right-20 w-28 h-8 bg-[#665CFF] rounded-full blur-[50px] md:w-48 md:h-48 "></div>
 

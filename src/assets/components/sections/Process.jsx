@@ -1,6 +1,6 @@
 const Process = () => {
     return (
-        <section className="bg-primary text-white py-16 px-6 text-center md:max-w-[1400px] md:mx-auto">
+        <section id="Process" className="bg-primary text-white py-16 px-6 text-center md:max-w-[1400px] md:mx-auto">
             {/* Section Heading */}
             <h2 className="text-4xl md:text-6xl font-bold">Process</h2>
             <p className="text-2xl md:text-3xl text-heroColor font-semibold mt-2">How we operate and seamless operations</p>

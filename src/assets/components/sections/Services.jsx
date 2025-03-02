@@ -51,7 +51,7 @@ export const Services = () => {
     ];
 
     return (
-        <section className="bg-primary text-white py-16 px-6 md:px-12  md:max-w-[1400px] md:mx-auto">
+        <section id="services" className="bg-primary text-white py-16 px-6 md:px-12  md:max-w-[1400px] md:mx-auto">
             {/* Section Heading */}
             <h2 className="text-4xl md:text-6xl font-bold text-center">
                 Our Services
@@ -63,7 +63,7 @@ export const Services = () => {
             {/* Services Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
                 {services.map((service, index) => (
-                    <div key={index} className="flex flex-col bg-heroColor p-6 rounded-lg text-white">
+                    <div key={index} className="flex flex-col bg-heroColor p-6 rounded-lg text-white shadow-lg transition-all duration-700 hover:scale-110">
                         <h3 className="text-2xl font-bold mb-3">{service.title}</h3>
                         <ul className="list-disc pl-5 space-y-2">
                             {service.points.map((point, idx) => (

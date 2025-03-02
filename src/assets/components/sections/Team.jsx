@@ -5,7 +5,7 @@ import team2 from "../../../assets/team2.png";
 
 function Team() {
      return (
-        <section className="bg-primary text-white py-16 px-6 text-center">
+        <section id="Team" className="bg-primary text-white py-16 px-6 text-center">
             {/* Section Heading */}
             <h2 className="text-4xl md:text-6xl font-bold">Team</h2>
             <p className="text-2xl md:text-3xl text-heroColor font-semibold mt-2">The Minds Behind Innovation</p>

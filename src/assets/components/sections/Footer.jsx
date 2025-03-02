@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <footer className="relative bg-primary text-white text-center py-12 px-6 md:max-w-[1400px] md:mx-auto">
+        <footer className="relative bg-primary text-white text-center py-12 px-6 ">
             {/* Section Heading */}
             <h2 className="text-4xl md:text-5xl font-bold text-heroColor uppercase">
                 READY TO TRANSFORM YOUR BUSINESS?
@@ -23,7 +23,7 @@ export const Footer = () => {
             <p className="text-sm md:text-1xl text-textColor mt-4 relative z-10">© All rights reserved. Midflow AI</p>
 
             {/* Gradient Overlay */}
-            <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-b from-[#080538]/[92%] to-[#170E9E]"></div>
+            <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-b from-[#080538]/[99%] to-[#170E9E]"></div>
         </footer>
     );
 }

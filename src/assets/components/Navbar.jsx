@@ -18,9 +18,9 @@ export const Navbar = () => {
 
     {/* Navigation Menu */}
     <div className="hidden md:flex space-x-6">
-        <a href="#" className=" text-textColor font-semibold text-lg hover:text-heroColor">Services</a>
-        <a href="#" className="text-textColor font-semibold text-lg hover:text-heroColor">Process</a>
-        <a href="#" className="text-textColor font-semibold text-lg hover:text-heroColor">Team</a>
+        <a  href="#services" className=" text-textColor font-semibold text-lg hover:text-heroColor">Services</a>
+        <a href="#Process" className="text-textColor font-semibold text-lg hover:text-heroColor">Process</a>
+        <a href="#Team" className="text-textColor font-semibold text-lg hover:text-heroColor">Team</a>
     </div>
 
     {/* Get Started Button */}
@@ -42,9 +42,9 @@ export const Navbar = () => {
                 <div className={isOpen ? 'fixed flex flex-col h-full left-0 top-0 z-40 w-[60%] bg-backgroundColor ease-in-out duration-500 md:hidden':'fixed left-[-100%]'}>
 
                     <div className="h-[50%] flex flex-col justify-evenly items-center  ">
-                    <a href="#" className="text-textColor font-semibold text-lg hover:text-heroColor" onClick={() => setIsOpen(false)}>Services</a>
-                    <a href="#" className="text-textColor font-semibold text-lg hover:text-heroColor" onClick={() => setIsOpen(false)}>Process</a>
-                    <a href="#" className="text-textColor font-semibold text-lg hover:text-heroColor" onClick={() => setIsOpen(false)}>Team</a>
+                    <a  href="#services" className="text-textColor font-semibold text-lg hover:text-heroColor" onClick={() => setIsOpen(false)}>Services</a>
+                    <a href="#Process" className="text-textColor font-semibold text-lg hover:text-heroColor" onClick={() => setIsOpen(false)}>Process</a>
+                    <a href="#Team" className="text-textColor font-semibold text-lg hover:text-heroColor" onClick={() => setIsOpen(false)}>Team</a>
                     </div>
 
 
