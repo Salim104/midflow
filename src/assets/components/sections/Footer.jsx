@@ -17,7 +17,7 @@ export const Footer = () => {
             </button>
 
             {/* Thin Line */}
-            <div className="w-full h-[5px] bg-heroColor mt-10"></div>
+            <div className="md:max-w-[1400px] md:mx-auto h-[2px] bg-heroColor mt-10"></div>
 
             {/* Copyright Text */}
             <p className="text-sm md:text-1xl text-textColor mt-4 relative z-10">© All rights reserved. Midflow AI</p>

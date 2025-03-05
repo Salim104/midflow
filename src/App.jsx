@@ -10,7 +10,9 @@ export default function App() {
   return (
     <>
     <div className="bg-backgroundColor">
+      <div className="fixed top-0 left-0 w-full z-20 ">
       <Navbar/>
+      </div>
       <Home/>
       <Services/>
       <Process/>
